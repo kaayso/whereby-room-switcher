@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Whereby Room Switcher",
+  "description": "Switch automatically to another room at the end of allowed time.",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://whereby.com/ouvrages.io",
+        "https://whereby.com/ouvrages"
+      ],
+      "js": ["script.js"]
+    }
+  ],
+  "icons": {
+    "16": "/icons/room-switcher16.png",
+    "32": "/icons/room-switcher32.png",
+    "48": "/icons/room-switcher48.png",
+    "128": "/icons/room-switcher128.png"
+  },
+  "browser_action": {
+    "default_icon": "/icons/room-switcher48.png",
+    "default_title": "Whereby Room Switcher"
+  }
+}
