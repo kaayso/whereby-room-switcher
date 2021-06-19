@@ -10,7 +10,8 @@
         "https://whereby.com/ouvrages.io",
         "https://whereby.com/ouvrages"
       ],
-      "js": ["script.js"]
+      "js": ["script.js"],
+      "css": ["styles.css"]
     }
   ],
   "icons": {

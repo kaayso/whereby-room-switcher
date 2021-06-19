@@ -1,0 +1,15 @@
+.count-down {
+  border-right: 1px solid hsla(0, 0%, 100%, .24);
+  color: #f26b4d;
+  width: 40;
+}
+
+.big-count-down {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(12em, 80vw, 25em);
+  color: rgb(242 107 77 / 60%);
+}
